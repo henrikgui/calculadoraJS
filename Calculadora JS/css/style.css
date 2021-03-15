@@ -1,0 +1,77 @@
+.container {
+    text-align: center;
+    font-size: 35px;
+    font-family: DejaVu Sans Mono, monospace;
+    background-size:cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -moz-background-size: cover; 
+    
+}
+h2{
+    font-size: 50px;
+    font-family: Impact, fantasy;
+}
+
+
+div.all{
+
+    
+    border-radius: 20px;
+    animation: changeBackgroundColor 7s infinite;
+    
+    
+}
+@keyframes changeBackgroundColor {
+    0% {
+      background-color: rgb(135, 235, 248);
+    }
+    25% {
+        background-color: rgb(157, 199, 118);
+      }
+    50% {
+      background-color: rgb(119, 252, 152);
+    }
+    75% {
+        background-color: rgb(192, 236, 253);
+      }
+    100% {
+      background-color: rgb(135, 235, 248);
+    }}
+  
+input.button {
+    background-color: hsl(0, 0%, 1%); /* Green */
+    
+    margin: 10px auto;
+    border: 3px solid #094CFA;
+    background: white;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bolder;
+   
+    
+  }
+
+  input.button:hover,
+  input.button:focus {
+  background: red;
+  
+}
+div#mostrarResultado{
+    font-size: 30px;
+}
+#text{
+    text-align: center;
+    font-size: 40px;
+}
+#signals
+{
+    
+    font-size: 0px;
+    border-radius: 20px;
+    
+   
+}
